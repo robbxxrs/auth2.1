@@ -21,9 +21,6 @@ The Software is provided "as is" without warranty of any kind, either express or
 ### Limitation of Liability
 In no event shall Robbers Area Foundations be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of this Software, even if advised of the possibility of such damage.
 
-### Contact
-For inquiries regarding the use, licensing, or authorization to access the Software, please contact Robbers Area Foundations at [insert contact email or method].
-
 ## Effective Date
 This License Agreement is effective as of August 14, 2025.
 
