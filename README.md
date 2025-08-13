@@ -22,8 +22,8 @@ This Python application generates and manages secure 15-character private keys, 
 ## Installation
 1. **Clone the Repository**:
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/robbxxrs/auth2.1
+   cd auth2.1-main
    ```
 
 2. **Install Dependencies**:
