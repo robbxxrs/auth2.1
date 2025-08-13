@@ -1,4 +1,4 @@
-# Private Key Generator and Manager
+# Auth 2.1
 
 ## Overview
 This Python application generates and manages secure 15-character private keys, storing associated user data (email, username, IP address) in a MySQL database. It uses encrypted configuration files for secure database connections and provides a user-friendly command-line interface with colorized output.
