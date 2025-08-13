@@ -18,9 +18,6 @@ This Python application generates and manages secure 15-character private keys, 
   - `mysql-connector-python`
   - `colorama`
   - `cryptography`
-- MySQL database with a `user_keys` table
-- Encrypted configuration files (`data/key.enc` and `data/core.enc`)
-- Environment variable `MASTER_KEY` for decryption
 
 ## Installation
 1. **Clone the Repository**:
@@ -33,27 +30,6 @@ This Python application generates and manages secure 15-character private keys, 
    ```bash
    pip install mysql-connector-python colorama cryptography
    ```
-
-3. **Set Up MySQL Database**:
-   - Create a MySQL database and a table named `user_keys` with the following schema:
-     ```sql
-     CREATE TABLE user_keys (
-         id INT AUTO_INCREMENT PRIMARY KEY,
-         email VARCHAR(255) NOT NULL,
-         username VARCHAR(255) NOT NULL,
-         ip_address VARCHAR(50),
-         private_key VARCHAR(50) NOT NULL,
-         created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-     );
-     ```
-
-4. **Prepare Encrypted Configuration Files**:
-   - Create a `data` directory in the project root.
-   - Generate a Fernet key for `MASTER_KEY` and set it as an environment variable:
-     ```bash
-     export MASTER_KEY='your-fernet-key-here'
-     ```
-   - Create `data/key.enc` and `data/core.enc` with encrypted database configuration (see `load_db_config` function for details).
 
 ## Usage
 1. Run the script:
@@ -95,10 +71,8 @@ Choose an option (1-5):
 ```
 
 ## Notes
-- Ensure the `MASTER_KEY` environment variable is set before running the program.
 - The program only accepts Gmail addresses (`@gmail.com`) for email input.
 - Database errors are logged with detailed error messages for debugging.
-- The `user_keys` table must exist in the MySQL database before running the program.
 
 ## License
 © 2025 Robbers Area Foundations. All rights reserved.
