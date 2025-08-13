@@ -4,7 +4,7 @@
 © 2025 Robbers Area Foundations. All Rights Reserved.
 
 ## License Terms
-This software, including all associated files, code, documentation, and other materials (collectively referred to as the "Software") contained within the repository located at https://github.com/robbxxrs/auth2.0, is the proprietary property of Robbers Area Foundations. All rights to the Software are exclusively reserved by Robbers Area Foundations, and no rights are granted to any third party unless explicitly authorized in writing by Robbers Area Foundations.
+This software, including all associated files, code, documentation, and other materials (collectively referred to as the "Software") contained within the repository located at https://github.com/robbxxrs/auth2.1, is the proprietary property of Robbers Area Foundations. All rights to the Software are exclusively reserved by Robbers Area Foundations, and no rights are granted to any third party unless explicitly authorized in writing by Robbers Area Foundations.
 
 ### Restrictions
 1. **No Distribution or Copying**: The Software, or any portion thereof, may not be copied, reproduced, distributed, published, or otherwise made available to any individual or entity without prior written consent from Robbers Area Foundations.
