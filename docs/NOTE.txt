@@ -1,2 +1,2 @@
-NOTE: To Run This Program Please Make Sure You Have Installed Python In Your Device, 
+NOTE* To Run This Program Please Make Sure You Have Installed Python In Your Device, 
 And To Run The Program, Just open terminal in the folder and Type "python app.py" done.
